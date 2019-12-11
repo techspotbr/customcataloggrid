@@ -1,0 +1,23 @@
+{
+    "name": "techspot/customcataloggrid",
+    "description": "Add Custom column in catalog grid",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "email": "babumsouza1@gmail.com",
+            "name": "Tech Spot Core Team"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Techspot\\CustomCatalogGrid\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
